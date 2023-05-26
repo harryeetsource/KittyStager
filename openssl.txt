@@ -4,7 +4,7 @@ pacman -Su
 pacman -S base-devel mingw-w64-x86_64-toolchain
 pacman -S perl nasm
 cd /path/to/your/directory
-wget https://www.openssl.org/source/openssl-1.1.1j.tar.gz
+wget https://github.com/openssl/openssl/releases/download/openssl-3.1.0/openssl-3.1.0.tar.gz
 tar -xvf openssl-1.1.1j.tar.gz
 cd openssl-1.1.1j
 ./Configure mingw64 --prefix=/usr/local/ssl
